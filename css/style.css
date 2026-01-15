@@ -1,3 +1,5 @@
+ 
+ 
  * {
      margin: 0;
      padding: 0;
@@ -301,7 +303,6 @@
 
  .menu> li> a:hover::before {
      opacity: 1;
-     /* 위로 올라옴 */
      transition: all 0.3s ease;
  }
 
@@ -330,6 +331,7 @@
     color: #000000;
 }
 .direct_menu li a:hover{
+    background-color: #0000007a;
     color: #ffffff;
     padding-top: 27px;
 }
@@ -338,10 +340,7 @@
      content: "";
      position: absolute;
      inset: 0;
-     background-image: url(../img/hover_btn2.png);
-     background-position: center;
-     background-size: 110px;
-     background-repeat: no-repeat;
+
 
      opacity: 0;
      /* 아래에 숨김 */
@@ -448,8 +447,8 @@
 
  /* 흐르는 브랜드 */
  .b_logo {
-     margin-top: 160px;
-     margin-bottom: 10px;
+     margin-top: 100px;
+     margin-bottom: 100px;
      width: 100%;
      height: 50px;
      background-image: url(../img/sub_logo.png);
