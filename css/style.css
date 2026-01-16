@@ -932,6 +932,7 @@
  .item_menu2_img {
      width: 270px;
      transition: all 0.1s ease;
+     position: relative;
  }
 
  /* 이미지 */
@@ -941,8 +942,24 @@
      flex-shrink: 0;
      /* background-color: orangered; */
      transition: all 0.1s ease;
+     
+ }
 
+ .new_box{
+    position: absolute;
+    top: -35px;
+    left: 10px;
+    background-color: #DD5B3F;
+    width: 60px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+ }
 
+ .new{
+    padding: 5px 0;
  }
 
  .item2 .im_text2 {
