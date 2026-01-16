@@ -668,7 +668,7 @@
  /* 아이템 둘러보기 */
  #item_wrap {
      width: 1320px;
-     height: 920px;
+     height: 950px;
      margin: 0 auto;
      /* background-color: orangered; */
      overflow: hidden;
@@ -677,7 +677,7 @@
  .item_title {
      width: 500px;
      height: 50px;
-     margin: 0 auto;
+     margin: 30px auto 0;
      border-radius: 30px;
      background-color: #DD5B3F;
      display: flex;
