@@ -332,6 +332,7 @@
     color: #000000;
 }
 .direct_menu li a:hover{
+    background-color: #0000007a;
     color: #ffffff;
     padding-top: 27px;
 }
@@ -340,10 +341,7 @@
      content: "";
      position: absolute;
      inset: 0;
-     background-image: url(../img/hover_btn2.png);
-     background-position: center;
-     background-size: 110px;
-     background-repeat: no-repeat;
+
 
      opacity: 0;
      /* 아래에 숨김 */
@@ -358,6 +356,7 @@
      /* 위로 올라옴 */
      transition: all 0.3s ease;
  }
+
 
 
 
